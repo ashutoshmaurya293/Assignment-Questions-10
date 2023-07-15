@@ -1,0 +1,23 @@
+Q.1 Explain Middlewares in NodeJS ?
+Answer: In Node.js, middleware is a function that has access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle
+Q.2 Why use Express Over NodeJS ?
+Answer: Express is a popular web framework for Node.js that provides a set of features for building web applications and APIsa and Here are some reasons why you might choose to use Express over Node.js
+Q.3 What are REST API ?
+Answer: REST stands for Representational State Transfer and A RESTful API is an architectural style for building web services that uses HTTP requests to access and manipulate data. RESTful APIs are designed to be simple, lightweight, and scalable
+Q.4 What is the use of MongoDB?
+MongoDB is a popular NoSQL database that is used for storing and retrieving data and Here are some reasons why you might choose to use MongoDB
+Q.5  What is Mongoose and how does it relate to MongoDB?
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js and It provides a higher-level API for interacting with MongoDB that makes it easier to work with data
+<aside>
+💡 **Q.9** You are tasked with building the backend for a Todo web application. The application allows users to create, update, and delete tasks in their to-do list with Api Endpoint as mentioned below
+
+**`/`** -->  send all the todos which are created by user
+
+**`/add`** --> to create todo create a middleware to validate user providing all the mandatory input (task), if user doesn't provide task as input send resp as validation failed
+
+**`/update/:id`**  --> to update todo with Todo Id, after updating send resp as {msg:"todo update successfully",data:allTodos}
+
+**`/delete/:id`** -->  to update todo with Todo id, after deleting send resp as {msg:"todo deleted",data:allTodos
+
+</aside>
+It seems like you’re asking for help with building a backend for a Todo web application. Here’s an example of how you can implement the API endpoints you mentioned using Express and Mongoose
